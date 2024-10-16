@@ -12,22 +12,22 @@ if (!class_exists('lessc')) {
     require_once($dir_block . '/libs/lessc.inc.php');
 }
 $less = new lessc;
-$less->compileFile('less/1354.less', 'css/1354.css');
+$less->compileFile('less/3037.less', 'css/3037.css');
 ?>
 
 <!DOCTYPE html>
 <html>
     <head>
-        <title>1354</title>
+        <title>3037</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      
-        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/
-              <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/1354.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/3037.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/js/bootstrap.min.js" rel="stylesheet" type="text/js" />
  
     </head>
     <body>
-        <?php include './1354-content.php'; ?>
+        <?php include './3037-content.php'; ?>
     </body>
 </html>
