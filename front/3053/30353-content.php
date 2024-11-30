@@ -24,39 +24,56 @@ $url_path = str_replace('\\', '/', $url_path);
 
 <body>
     <!-- Refurbished Devices Shop Section -->
-    <section class="container text-center my-5">
-        <h2 class="mb-4">REFURBISHED DEVICES SHOP</h2>
-        <div class="row">
+    <div class="container text-center my-5">
+        <h2 class="mb-4"><strong>REFURBISHED DEVICES SHOP</strong></h2>
+        <div class="row row-card">
+            <!-- Product 1 -->
             <div class="col-md-3">
-                <img src="img1.jpg" class="img-fluid" alt="Headphones NK500">
-                <h5 class="mt-3">HEADPHONES NK500</h5>
-                <h8>$499.00</h8>
-                <br>
-                <button class="btn">Add to cart</button>
+                <div class="card">
+                    <img src="img1.jpg" class="card-img-top" alt="Headphones NK500">
+                    <div class="card-body">
+                        <h7 class="card-title"><strong>HEADPHONES NK500 </strong></h7>
+                        <p class="card-text"><strong>$499.00</strong></p>
+                        <a href="#" class="btn btn-outline-primary">Add to cart</a>
+                    </div>
+                </div>
             </div>
+            <!-- Product 2 -->
             <div class="col-md-3">
-                <img src="img2.jpg" class="img-fluid" alt="Phone 30N">
-                <h5 class="mt-3">PHONE 30N</h5>
-                <h8>$300.00</h8>
-                <br>
-                <button class="btn">Add to cart</button>
+                <div class="card">
+                    <img src="img2.jpg" class="card-img-top" alt="Phone 30N">
+                    <div class="card-body">
+                        <h7 class="card-title"><strong>PHONE 30N</strong></h7>
+                        <p class="card-text"><strong>$300.00</strong></p>
+                        <a href="#" class="btn btn-outline-primary">Add to cart</a>
+                    </div>
+                </div>
             </div>
+            <!-- Product 3 -->
             <div class="col-md-3">
-                <img src="img3.jpg" class="img-fluid" alt="Phone GT550">
-                <h5 class="mt-3">PHONE GT550</h5>
-                <h8>$370.00</h8>
-                <br>
-                <button class="btn">Add to cart</button>
+                <div class="card">
+                    <img src="img3.jpg" class="card-img-top" alt="Phone GT550">
+                    <div class="card-body">
+                        <h7 class="card-title"><strong>PHONE GT550</strong></h7>
+                        <p class="card-text"><strong>$370.00</strong></p>
+                        <a href="#" class="btn btn-outline-primary">Add to cart</a>
+                    </div>
+                </div>
             </div>
+            <!-- Product 4 -->
             <div class="col-md-3">
-                <img src="img4.jpg" class="img-fluid" alt="Phone TR300">
-                <h5 class="mt-3">PHONE TR300</h5>
-                <h8>$220.00</h8>
-                <br>
-                <button class="btn">Add to cart</button>
+                <div class="card">
+                    <img src="img4.jpg" class="card-img-top" alt="Phone TR300">
+                    <div class="card-body">
+                        <h7 class="card-title"><strong>PHONE TR300</strong></h7>
+                        <p class="card-text"><strong>$220.00</strong></p>
+                        <a href="#" class="btn btn-outline-primary">Add to cart</a>
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
+    </div>
+
 
     <!-- Certified Experts Section -->
     <section class="bg-light py-5">
